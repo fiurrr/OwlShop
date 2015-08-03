@@ -1,0 +1,83 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: EncodeSans-Thin;
+}
+input{
+    font-family: EncodeSans-Thin;
+}
+textarea{
+    font-family: EncodeSans-Thin;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {font-family:'Exo 2';}
+
+header {width:100%; text-align: center;margin:0 0 40px;}
+header h1 {font-size: 50px; font-family: 'Pacifico', sans-serif; letter-spacing: 1px;margin:20px auto;}
+header .user {position:absolute;top: 20px;right:50px;}
+header .user img {position:relative;top:8px;right:10px;}
+header .user > .logout {position:relative;top:15px; left:20px;}
+header .user > .logout a, header .user > .logout a:visited {letter-spacing: 1px; font-size: 13px; text-decoration: none; color: #2B2B2B;}
+
+
+.login-panel {width: 400px; margin: 20px auto 10px; padding:30px; text-align:center; -moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 25px;
+                border: 1px dotted #cecece;}
+.login-panel input {padding: 10px; letter-spacing: 1px; display: block;width: 250px; margin:20px auto; font-size: 20px;}
+
+section {max-width: 1200px; margin: 0 auto;}
+
+.dashboard .icon {width: 120px; height: 40px; border: 1px solid #ccc; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; text-align: center;
+                    float: left; margin: 10px; padding-top: 25px;}
+.dashboard .icon:hover {border: 1px solid #888;}
+.dashboard .icon a, .dashboard .icon a:visited {text-decoration: none; text-transform: uppercase; letter-spacing: 1px; color:#222; font-size: 13px;}
+
+.products .product {width: 150px; border: 1px solid #efefef; margin: 5px; float: left; text-align: center;}
+    .products .product img {width: 80px; height: 80px;}
+    .products .product a {cursor: pointer; font-size: 14px; color:#000; text-decoration: none;}
+
+footer {width:100%; text-align: center; color: #bbbbbb; font-size: 12px; letter-spacing: 1px; margin: 20px 0; clear: both;}
+
+
+/*   header .basket {position:absolute; top:5px; right:50px; }
+header .basket > p {font-family: 'Exo 2'; font-size: 11px; letter-spacing: 1px; color: #1C1C1B; float:right; margin: 15px 20px; }
+header .basket .icon {width:28px; background:#F3F3F3; padding:12px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;float:right;}
+header .basket .icon:hover {background:#eeeeee; cursor:pointer;}
+.basket > .content {width: 190px; padding: 10px; background: #fff; border: 1px solid #f1f1f1; box-shadow: 3px 3px 10px -1px #eee; position: absolute; top: 60px; right: 5px;}*/

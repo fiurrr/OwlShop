@@ -1,0 +1,18 @@
+<section class="single-product">
+    <div class="gallery">
+        <img ng-src="/shop/public/img/products/{{photo}}" />
+        <div class="thumbs">
+            <img ng-src="/shop/public/img/products/zyrandol.jpg" ng-click="setPhoto('zyrandol.jpg')" />
+            <img ng-src="/shop/public/img/products/kartka.jpg" ng-click="setPhoto('kartka.jpg')" />
+            <img ng-src="/shop/public/img/products/okulary.jpg" ng-click="setPhoto('okulary.jpg')" />
+            <img ng-src="/shop/public/img/products/box.jpg" ng-click="setPhoto('box.jpg')" />
+        </div>
+    </div>
+    <div class="information">
+        <h1>{{name}}</h1>
+        {{desc}}<br/>
+        <span style="color:red;font-size:23px;">{{price}} <span style="font-size:16px;letter-spacing:1px;">PLN</span></span>
+        <h3>Jestem twoim produktem nr</h3>
+        <h1>{{productId}}</h1>
+    </div>
+</section>

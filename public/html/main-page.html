@@ -1,0 +1,12 @@
+<section class="products">
+    <!--<select ng-model="order">
+        <option value="price">Cena rosnaco</option>
+        <option value="-price">Cena malejaco</option>
+    </select>-->
+    <a ng-repeat="product in products | filter:query" href="#/product/{{product.id}}" class="product">
+        <img ng-src="/shop/public/img/products/{{product.photo}}" />
+        <div class="title"">{{product.name}}</div>
+    </a>
+
+
+</section>
