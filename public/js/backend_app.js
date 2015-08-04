@@ -20,10 +20,14 @@ backend.config(['$routeProvider',
                 templateUrl: '/shop/public/html/admin/products.html',
                 controller: 'admProductList'
             }).
-                when('/product/:id', {
-                    templateUrl: '/shop/public/html/admin/product_edit.html',
-                    controller: 'admProductEdit'
-                }).
+            when('/product/add', {
+                templateUrl: '/shop/public/html/admin/product_add.html',
+                controller: 'admProductAdd'
+            }).
+            when('/product/:id', {
+                templateUrl: '/shop/public/html/admin/product_edit.html',
+                controller: 'admProductEdit'
+            }).
             when('/categories', {
                 templateUrl: '/shop/public/html/admin/categories.html',
                 controller: 'categoryCtrl'

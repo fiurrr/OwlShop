@@ -22,13 +22,16 @@
 {{username}}
 <header class="top" >
     <h1>Owl Things</h1>
+
     <div class="user" ng-mouseover="logoutShow()" ng-mouseleave="logoutHide()" ng-if="currentUser">
+        <a href="#/dashboard"><img src="/shop/public/img/site/dashboard.png"></a>&nbsp;
         <img src="/shop/public/img/site/user.png" /> {{currentUser}}
         <div class="logout" style="display:none;"><a ng-click="logout()" href="">Wyloguj</a></div>
     </div>
 
 </header>
 <div ng-view></div>
+<div class="message" style="display:none;">{{message}}</div>
 <footer>
     created by owlCode<br/>
     copyright 2015

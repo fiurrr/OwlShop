@@ -1,4 +1,7 @@
 <section class="products">
+    <div class="menu">
+        <div class="add"><a href="#/product/add">+ dodaj</a></div>
+    </div>
     <div class="product" ng-repeat="product in products">
         <a href="#/product/{{product.id}}"><img ng-src="/shop/public/img/products/{{product.photo}}" /></a><br/>
         <a ng-click="deleteProduct(product.id)">X</a>
