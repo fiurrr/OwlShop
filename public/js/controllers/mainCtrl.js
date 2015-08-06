@@ -11,5 +11,11 @@ angular.module('mainCtrl', [])
         });
 
     });
+    
+    wciecia zdupczone :D
+    
+    Musimy zmienic troche sposób w jaki to robisz. Wrzuć projekt na bitbucketa i zrob init commit na branchu develop.
+    Przed kolejnymi zmianami stworzysz nowego brancha od developa na ktory wypchniesz zmiany.
+    Pozniej zrobisz pull requesta i dasz mi do code review. BO tutaj nawet komentarzy nie da sie pisac.
 
 
